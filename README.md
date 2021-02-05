@@ -1,6 +1,6 @@
-# GradualColorDemo
-渐变色+透明度
-'''
+![Simulator Screen Shot - iPhone 8 - 2021-02-05 at 15.58.50.png](https://upload-images.jianshu.io/upload_images/532541-fdba3d585999cf2a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+```
 - (void)changeColor
 {
     UIColor *color0 = [[UIColor blueColor] colorWithAlphaComponent:0.0];
@@ -27,4 +27,4 @@
     gradient.frame = CGRectMake(0, 0, subView.bounds.size.width, subView.bounds.size.height);
     [subView.layer insertSublayer:gradient atIndex:0];
 }
-'''
+```
