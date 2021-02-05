@@ -1,6 +1,6 @@
 # GradualColorDemo
 渐变色+透明度
-
+'''
 - (void)changeColor
 {
     UIColor *color0 = [[UIColor blueColor] colorWithAlphaComponent:0.0];
@@ -27,3 +27,4 @@
     gradient.frame = CGRectMake(0, 0, subView.bounds.size.width, subView.bounds.size.height);
     [subView.layer insertSublayer:gradient atIndex:0];
 }
+'''
